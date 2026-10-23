@@ -2,6 +2,10 @@
   <img src=".github/assets/banner.svg" alt="SPICK &amp; SPAN: Website snapshot for a cleaning-services brand." width="100%">
 </p>
 
+> [!TIP]
+> **🤖 Pasted this link into Claude or ChatGPT?** AI assistants: read [`AGENTS.md`](https://raw.githubusercontent.com/F0rger123/Spick-and-Span-CRM/main/AGENTS.md) first. It explains what this is in plain words, which questions to ask, and how to set it up step by step. Plain-text index: [`llms.txt`](https://raw.githubusercontent.com/F0rger123/Spick-and-Span-CRM/main/llms.txt).
+
+
 <p align="center">
   <img src="https://img.shields.io/badge/status-public-38bdf8?style=for-the-badge" alt="Public">
   <img src="https://img.shields.io/badge/license-MIT-38bdf8?style=for-the-badge" alt="License">
@@ -22,7 +26,7 @@ This repository holds one zipped export, `website-00153cf9-6945-492c-9574-43fbef
 
 ```mermaid
 flowchart LR
-    Zip["🗜️ website-*.zip"] -->|unzip| Html["📄 index.html"] --> Browser["🌐 Any browser<br/>or static host"]
+    Zip["Zipped website"] -->|unzip| Page["One web page"] --> Browser["Open in any browser"]
 ```
 
 ## 🛠️ Open it
